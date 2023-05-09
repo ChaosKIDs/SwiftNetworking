@@ -7,10 +7,10 @@
 
 import Foundation
 
-//var tempNow 
+//var tempNow
 
 func fetchWeatherData() {
-    print("-----API call runs here-----")
+    print("-----API call starts here-----")
     //API请求地址
     guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=35.18147&lon=136.90641&appid=\(API_KEY)") else {
         print("Invalid URL")
