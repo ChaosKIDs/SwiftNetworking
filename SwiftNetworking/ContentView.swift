@@ -20,9 +20,6 @@ struct ContentView: View {
                     .cornerRadius(10)
             }
         }
-//        .onAppear(){
-//            fetchWeatherData()
-//        }
         .padding()
     }
 }

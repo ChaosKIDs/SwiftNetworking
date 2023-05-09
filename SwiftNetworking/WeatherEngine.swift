@@ -7,6 +7,8 @@
 
 import Foundation
 
+//var tempNow 
+
 func fetchWeatherData() {
     print("-----API call runs here-----")
     //API请求地址
